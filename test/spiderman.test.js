@@ -10,7 +10,7 @@ describe("Unit Test for Spiderman class", () => {
             "Spiderman Sony", 
             31, 
             "Andrew Garfield", 
-            2, 
+            2,
             "Sony"
         )
 
