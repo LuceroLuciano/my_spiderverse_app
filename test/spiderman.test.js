@@ -1,7 +1,6 @@
-/*   REQUERIMIENTO:
-     Crean una clase  spiderman que tenga como atributos los siguientes campos: 
-     nombre, edad, actor que lo interpretó, número de películas en las que apareció, estudio de cine.
- */
+// Prueba de unidad con TDD
+const Spiderman = require('./../app/spiderman')
+
 describe("Unit Test for Spiderman class", () => {
     test('1) Create an Spiderman object', () => {
         
@@ -14,7 +13,7 @@ describe("Unit Test for Spiderman class", () => {
             2, 
             "Sony"
         )
-        
+
         // Validamos que este codigo funcione
         expect(andrewGarfield.name).toBe("Spiderman Sony")
         expect(andrewGarfield.age).toBe(31)
