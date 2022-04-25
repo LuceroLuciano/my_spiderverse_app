@@ -20,5 +20,27 @@ describe("Unit Test for Spiderman class", () => {
         expect(andrewGarfield.actor).toBe("Andrew Garfield")
         expect(andrewGarfield.movies).toBe(2)
         expect(andrewGarfield.studio).toBe("Sony")
-    })
+    });
+
+    // Prueba 2
+    /* Usar un método que nos regrese la siguiente información: autor y
+     estudio al que pertenece spiderman instanciado
+        Ejemplo:
+
+        tomHolland.getInfo() // esto necesita regresar: "Hey, I'm Tom Holland from Marvel studio"
+    */
+    test('2) Use the method getInfo()', () => {
+        const tomHolland = new Spiderman(
+            "Spiderman Marvel",
+            25,
+            "Tom Holland",
+            5,
+            "Marvel"
+        )
+
+        // validamos el metodo
+        expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel Studio")
+    });
 });
+
+
