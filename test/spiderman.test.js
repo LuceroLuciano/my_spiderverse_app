@@ -41,6 +41,7 @@ describe("Unit Test for Spiderman class", () => {
         // validamos el metodo
         expect(tomHolland.getInfo()).toBe("Hey, I'm Tom Holland from Marvel Studio")
     });
+
 });
 
 

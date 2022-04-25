@@ -13,7 +13,7 @@ class Spiderman{
         return (`Hey, I'm ${this.actor} from ${this.studio} Studio`)
 
     }
+    
 }
-
 // Exportando la clase
 module.exports = Spiderman
